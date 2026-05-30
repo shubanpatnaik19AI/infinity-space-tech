@@ -157,3 +157,8 @@
   animation-delay: 1.5s;
   opacity: 0.3;
 }
+
+/* Hide Lovable badge */
+#lovable-badge {
+  display: none !important;
+}
