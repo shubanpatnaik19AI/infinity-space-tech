@@ -82,6 +82,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "author", content: "Infinity Space Tech" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Infinity Space Tech" },
+      { name: "twitter:title", content: "Infinity Space Tech" },
+      { property: "og:description", content: "Pioneering humanity's next leap into the cosmos." },
+      { name: "twitter:description", content: "Pioneering humanity's next leap into the cosmos." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/d857997b-7706-4013-9e60-970da87023fa/id-preview-701419a2--0abfd55b-564e-4034-b766-84f5edf85372.lovable.app-1780124708498.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/d857997b-7706-4013-9e60-970da87023fa/id-preview-701419a2--0abfd55b-564e-4034-b766-84f5edf85372.lovable.app-1780124708498.png" },
     ],
     links: [
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
