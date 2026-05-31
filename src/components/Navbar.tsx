@@ -9,14 +9,15 @@ export const Navbar = () => {
           <Rocket className="h-5 w-5 text-primary" />
           <span className="text-sm">INFINITY <span className="text-gradient">SPACE TECH</span></span>
         </Link>
-        <nav className="hidden gap-8 text-sm text-muted-foreground md:flex">
+        <nav className="hidden gap-6 text-sm text-muted-foreground md:flex">
           <Link to="/" hash="mission" className="transition-colors hover:text-foreground">Mission</Link>
-          <Link to="/" hash="destinations" className="transition-colors hover:text-foreground">Destinations</Link>
           <Link to="/" hash="roadmap" className="transition-colors hover:text-foreground">Roadmap</Link>
-          <Link to="/space-map" className="transition-colors hover:text-foreground" activeProps={{ className: "text-foreground" }}>3D Map</Link>
+          <Link to="/space-map" className="transition-colors hover:text-foreground" activeProps={{ className: "text-foreground" }}>Solar</Link>
+          <Link to="/systems" className="transition-colors hover:text-foreground" activeProps={{ className: "text-foreground" }}>Systems</Link>
+          <Link to="/galaxy" className="transition-colors hover:text-foreground" activeProps={{ className: "text-foreground" }}>Galaxy</Link>
         </nav>
-        <Link to="/space-map" className="rounded-full bg-cosmic px-4 py-1.5 text-xs font-semibold text-primary-foreground shadow-glow transition-transform hover:scale-105">
-          Launch Map
+        <Link to="/galaxy" className="rounded-full bg-cosmic px-4 py-1.5 text-xs font-semibold text-primary-foreground shadow-glow transition-transform hover:scale-105">
+          Open Atlas
         </Link>
       </div>
     </header>
